@@ -1,0 +1,82 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+\name{Douglas W. Jordan\\[12pt]} % the \\[12pt] adds a blank line after name
+\address{{\bf Present Address} \\ 664 D East Prospect Avenue \\ State College, PA 16801 \\
+        (814) 574-8768 }
+\address{{\bf Permanent Address} \\ 3144 Williamsburg Court \\ State College, PA 16801 \\
+        (814) 954-0111 } 
+\begin{resume} 
+ 
+\section{Objective} 
+Seeking a sofware engineering internship 
+
+\section{Education} 
+{\bf Schreyer Honors College, Pennsylvania State University} \\
+Fall 2011 - til date, Expected Graduation, Spring 2015 \\
+Major: B.S. in Computer Science (College of Engineering) GPA: 4.00 \\
+Major: B.S. in Mathematics (Eberly College of Science) GPA: 3.67
+
+{\bf State College Area High School, State College, PA 16801} \\
+Graduated in June 2011 \\
+GPA 4.46 weighted, 3.87 unweighted
+
+\section{Experience}
+{\bf System Administrator,} The Intelligent Information Systems Lab, PSU \hfill 2011-Present
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item Maintained the CiteSeerX system 
+\item Created a system to upload and store the CiteSeerX dataset on Amazon S3
+\item Migrated existing 10-server system to virtual machine cluster 
+\end{itemize}
+ 
+{\bf Engineering Intern,} OneSchool, Inc. Menlo Park, CA \hfill Fall 2011
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Used Python to scren scrape the websites of many Universities and import the data into a Django-based API
+\item Added features and implemented bug fixes to an existing iPhone application with 100+ classes
+\end{itemize}
+
+{\bf Research Assistant,} Center for Network-Centric Cognition and Information Fusion, PSU \hfill Summer 2011
+\begin{itemize} \itemsep -2pt
+\item Devloped applications to visually model internet traffic on a webserver using various visualization techniques 
+\item Utilized Java through Processing as well peasycam to make a 3D environment
+\end{itemize}
+
+{\bf Founder and Lead Technician,} Computer-Tek, Harvard, MA \hfill 2004-present
+\begin{itemize} \itemsep -2pt
+\item Founded business to do Mac and PC troubleshooting, network configuration, website design and development, graphic design, data recovery, and repairs
+\end{itemize}
+\section{Leadership  Activities} 
+{\bf Safety Chair,} Penn State Club Cross Country Team, PSU \hfill 2011-present 
+\begin{itemize} \itemsep -2pt
+\item Was aware of medican conditions of fellow athletes
+\item CPR/AED and first-aid trained
+\end{itemize}
+
+\section{Academic \\ Honors} 
+3rd place in Computer Systems Troubleshooting at TSA PA state conference
+Dean's List of Distinguished Students, all semesters \\
+Electronics Award, Freshman year of high school \\
+High Honor Roll, all 4 years of high school \\
+Top 10\% of class all 4 years of high school 
+Eric Fuller Cross Country Senior Leadership Scholarship
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+\begin{tabular}{l p{3in}}
+\underline{Languages:} & C/C++, Objective-C, Java, Python, Bash, LaTeX \\
+\underline{Database related:} & MySQL, Transact-SQL, XML \\
+\underline{Apache:} & Tomcat, Httpd, Solr Lucene
+\end{tabular}
+
+\section{References}
+\begin{itemize} \itemsep -2pt
+\item Available upon request
+\end{itemize}
+\end{resume}
+\end{document}

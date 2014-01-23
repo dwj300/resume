@@ -1,0 +1,92 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+\name{Douglas W. Jordan\\[12pt]} % the \\[12pt] adds a blank line after name
+\address{{\bf Present Address} \\ 664 East Prospect Avenue \\ Apartment D \\ State College, PA 16801 \\
+        (814) 574-8768 }
+\address{{\bf Permanent Address} \\ 3144 Williamsburg Court \\ State College, PA 16801 \\ (814) 574-0111 \\ douglasjordan0@gmail.com } 
+\begin{resume} 
+ 
+\section{Objective} 
+Seeking the position of THON Technology captain
+
+\section{Education} 
+{\bf Schreyer Honors College, The Pennsylvania State University} \\
+Fall 2011 - Expected Graduation Spring 2015 \\
+Major: B.S. in Computer Science, College of Engineering \\
+Major: B.S. in Mathematics, Eberly College of Science \\
+Overall GPA: 3.78
+
+{\bf State College Area High School, State College, PA 16801} \\
+Graduated June 2011 \\
+GPA: 4.46 weighted, 3.87 unweighted
+
+\section{Experience}
+{\bf System Administrator,} The Intelligent Information Systems Lab, PSU \hfill 2011-Present
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item Maintained the CiteSeerX system 
+\item Created a system to upload and store the CiteSeerX dataset on Amazon S3
+\item Migrated existing 10-server system to virtual machine cluster 
+\end{itemize}
+ 
+{\bf Engineering Intern,} OneSchool, Inc. Menlo Park, CA \hfill Fall 2011
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Used Python to screen-scrape the websites of many Universities and import the data into a Django-based API
+\item Added features and implemented bug fixes to an existing iPhone application with 100+ classes
+\end{itemize}
+
+{\bf Research Assistant,} Center for Network-Centric Cognition and Information Fusion, PSU \hfill Summer 2011
+\begin{itemize} \itemsep -2pt
+\item Developed applications to model internet traffic on a webserver using various visualization techniques 
+\item Utilized Java through Processing as well peasycam to make a 3D environment
+\end{itemize}
+
+{\bf Founder and Lead Technician,} Computer-Tek, Harvard, MA \hfill 2004-present
+\begin{itemize} \itemsep -2pt
+\item Founded a business to troubleshoot personal computers, network configuration, website design and development, graphic design, data recovery, and repairs
+\end{itemize}
+
+\section{Publications-Papers}
+{\bf Web Crawler Middleware for Search Engine Digital Libraries: A Case Study for CiteSeerX,} Jian Wu, Pradeep Teregowda, Madian Khabsa, \underline{Douglas Jordan} and C. Lee Giles, \emph{12th ACM International Workshop on Web Information and Data Management} {\bf (WIDM-2012).}
+
+\section{Publications-Posters}
+{\bf CiteSeerX Data: Usage, Access and Mining,} Stephen Carman, Pradeep Teregowda, \underline{Douglas Jordan}, Jian Wu, Prasenjit Mitra, Bernard Jansen and Lee Giles, \emph{1st International Workshop on Mining Scientific Publications} {\bf (WOSP-2012).}
+
+\section{Leadership \\ Activities}
+{\bf Safety Chair,} Penn State Club Cross Country, PSU \hfill 2011-present
+\begin{itemize} \itemsep -2pt
+\item Was aware of medical conditions of fellow athletes
+\item CPR/AED and first-aid trained
+\end{itemize}
+
+\section{Academic \\ Honors} 
+Top 100 nationwide at SignalFire's University Hacker Olympics \\
+Penn State Dean's List of Distinguished Students, all semesters \\
+Eric Fuller Cross Country Senior Leadership Scholarship
+High Honor Roll, all 4 years of high school \\
+Top 10\% of class all 4 years of high school \\
+3rd place in Computer Systems Troubleshooting at 2009 TSA PA state conference \\
+Electronics Award, Freshman year of high school \\
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+\begin{tabular}{l p{3in}}
+\underline{Languages:} & C/C++, Objective-C, Java, Python, Bash, LaTeX \\
+\underline{Database related:} & MySQL, Transact-SQL, XML \\
+\underline{Web:} & HTML, CSS, PHP \\
+\underline{Apache:} & Tomcat, Httpd, Solr Lucene \\
+\underline{Other:} & Amazon S3
+\end{tabular}
+
+\section{References}
+\begin{itemize} \itemsep -2pt
+\item Available upon request
+\end{itemize}
+\end{resume}
+\end{document}
