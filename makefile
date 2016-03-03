@@ -1,2 +1,2 @@
 all:
-	pdflatex resume.pdf
+	pdflatex resume.tex
